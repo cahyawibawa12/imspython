@@ -1,1 +1,1 @@
-web: gunicorn pretest:app --log-file -
+web: vendor/bin/heroku-php-apache2 public/
